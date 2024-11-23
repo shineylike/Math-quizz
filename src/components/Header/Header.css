@@ -1,12 +1,74 @@
 .header {
-    background-color: #333;
+    background-color: #89CFF0;
     color: white;
     padding: 1em;
     text-align: center;
 }
 
 .header nav a {
-    color: #61dafb;
+    color: white;
     margin: 0 10px;
     text-decoration: none;
+}
+
+.header {
+    background-color: #61dafb;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.test-button {
+    position: relative;
+    display: inline-block;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.test-button p {
+    margin: 0;
+}
+
+.test-dropdown {
+    position: absolute;
+    top: 100%; /* Position the dropdown just below the button */
+    left: 0;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Small shadow for effect */
+    display: block;
+    z-index: 10;
+}
+
+.test-dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.test-dropdown li {
+    padding: 0.5em 0;
+}
+
+.test-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 0;
+}
+
+.test-link:hover {
+    background-color: #21a1f1; /* Slightly darker shade */
 }

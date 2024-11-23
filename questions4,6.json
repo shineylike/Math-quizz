@@ -1,0 +1,948 @@
+[
+  {
+    "question": "Which of the following angles is an acute angle?",
+    "options": ["35°", "90°", "120°", "180°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 1,
+    "challenge_level": 1,
+    "explanation": ["Acute angle"]
+  },
+  {
+    "question": "Is 45° an acute angle?",
+    "options": ["Yes", "No", "It depends on the situation", "Not enough information"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 1,
+    "challenge_level": 1,
+    "explanation": ["Acute angle"]
+  },
+  {
+    "question": "Which of the following is NOT an acute angle?",
+    "options": ["30°", "60°", "90°", "50°"],
+    "scores": [0, 0, 1, 0],
+    "totalScore": 1,
+    "skill_level": 1,
+    "challenge_level": 1,
+    "explanation": ["Acute angle"]
+  },
+  {
+    "question": "What is the measure of the acute angle formed between the hands of a clock at 2:00?",
+    "options": ["30°", "60°", "90°", "120°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Acute angle"]
+  },
+  {
+    "question": "Which of the following angles is smaller than 90°?",
+    "options": ["80°", "100°", "120°", "180°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 1,
+    "challenge_level": 1,
+    "explanation": ["Acute angle"]
+  },
+    {
+      "question": "Which of the following triangles is an acute triangle?",
+      "options": ["Triangle with angles 30°, 60°, 90°", "Triangle with angles 45°, 45°, 90°", "Triangle with angles 60°, 60°, 60°", "Triangle with angles 120°, 30°, 30°"],
+      "scores": [0, 0, 1, 0],
+      "totalScore": 1,
+      "skill_level": 1,
+      "challenge_level": 1,
+      "explanation": ["Acute triangle"]
+    },
+    {
+      "question": "Which triangle is an acute triangle?",
+      "options": ["Triangle with angles 40°, 50°, 100°", "Triangle with angles 45°, 45°, 90°", "Triangle with angles 60°, 60°, 60°", "Triangle with angles 120°, 30°, 30°"],
+      "scores": [0, 0, 1, 0],
+      "totalScore": 1,
+      "skill_level": 1,
+      "challenge_level": 1,
+      "explanation": ["Acute triangle"]
+    },
+    {
+      "question": "Is a triangle with angles 20°, 50°, and 110° an acute triangle?",
+      "options": ["Yes", "No", "It depends", "Not enough information"],
+      "scores": [0, 1, 0, 0],
+      "totalScore": 1,
+      "skill_level": 1,
+      "challenge_level": 1,
+      "explanation": ["Acute triangle"]
+    },
+    {
+      "question": "What is an acute triangle?",
+      "options": ["A triangle with one angle greater than 90°", "A triangle where all angles are less than 90°", "A triangle with one angle equal to 90°", "A triangle with all angles equal to 180°"],
+      "scores": [0, 1, 0, 0],
+      "totalScore": 1,
+      "skill_level": 1,
+      "challenge_level": 1,
+      "explanation": ["Acute triangle"]
+    },
+    {
+      "question": "Which of the following triangles is NOT an acute triangle?",
+      "options": ["Triangle with angles 50°, 60°, 70°", "Triangle with angles 60°, 60°, 60°", "Triangle with angles 90°, 45°, 45°", "Triangle with angles 30°, 60°, 90°"],
+      "scores": [0, 0, 1, 0],
+      "totalScore": 1,
+      "skill_level": 1,
+      "challenge_level": 1,
+      "explanation": ["Acute triangle"]
+    },
+    {
+      "question": "What is the result of 3.5 + 2.7?",
+      "options": ["6.1", "5.2", "6.2", "5.1"],
+      "scores": [1, 0, 1, 0],
+      "totalScore": 1,
+      "skill_level": 2,
+      "challenge_level": 2,
+      "explanation": ["Adding and subtracting decimals"]
+    },
+    {
+      "question": "What is the result of 5.75 - 2.4?",
+      "options": ["3.35", "3.25", "2.75", "3.45"],
+      "scores": [1, 0, 0, 0],
+      "totalScore": 1,
+      "skill_level": 2,
+      "challenge_level": 2,
+      "explanation": ["Adding and subtracting decimals"]
+    },
+    {
+      "question": "What is the sum of 4.58 and 6.42?",
+      "options": ["10.10", "11.00", "10.12", "11.10"],
+      "scores": [1, 0, 0, 0],
+      "totalScore": 1,
+      "skill_level": 2,
+      "challenge_level": 2,
+      "explanation": ["Adding and subtracting decimals"]
+    },
+    {
+      "question": "What is the difference of 8.9 and 4.75?",
+      "options": ["4.15", "4.05", "5.15", "4.25"],
+      "scores": [1, 0, 0, 0],
+      "totalScore": 1,
+      "skill_level": 2,
+      "challenge_level": 2,
+      "explanation": ["Adding and subtracting decimals"]
+    },
+    {
+      "question": "What is 7.2 + 3.6?",
+      "options": ["10.8", "10.6", "9.8", "11.8"],
+      "scores": [1, 0, 0, 0],
+      "totalScore": 1,
+      "skill_level": 2,
+      "challenge_level": 2,
+      "explanation": ["Adding and subtracting decimals"]
+    },
+  {
+    "question": "What is the result of 1/4 + 3/4?",
+    "options": ["1", "1/2", "3/4", "1/4"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Adding Fractions"]
+  },
+  {
+    "question": "What is the result of 2/5 + 1/5?",
+    "options": ["3/5", "2/5", "1/5", "4/5"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Adding Fractions"]
+  },
+  {
+    "question": "What is the sum of 5/8 + 1/8?",
+    "options": ["6/8", "5/16", "1", "4/8"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Adding Fractions"]
+  },
+  {
+    "question": "What is the result of 2/3 + 4/9?",
+    "options": ["10/9", "8/9", "6/9", "4/3"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Adding Fractions"]
+  },
+  {
+    "question": "What is the sum of 7/10 + 3/10?",
+    "options": ["1", "5/10", "7/5", "10/10"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Adding Fractions"]
+  },
+  {
+    "question": "What is the result of -3 + 5?",
+    "options": ["2", "8", "-2", "3"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Adding Integers"]
+  },
+  {
+    "question": "What is the result of -7 + 4?",
+    "options": ["-3", "1", "11", "-11"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Adding Integers"]
+  },
+  {
+    "question": "What is the sum of -6 + -2?",
+    "options": ["-8", "-4", "4", "8"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Adding Integers"]
+  },
+  {
+    "question": "What is the result of 9 + -5?",
+    "options": ["4", "14", "-4", "5"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Adding Integers"]
+  },
+  {
+    "question": "What is the sum of -8 + 3?",
+    "options": ["-5", "5", "11", "-11"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Adding Integers"]
+  },
+  {
+    "question": "What is the result of 1 1/2 + 2 1/2?",
+    "options": ["4", "3 1/2", "3", "4 1/2"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Adding Mixed Numbers"]
+  },
+  {
+    "question": "What is the result of 3 3/4 + 1 1/4?",
+    "options": ["5", "4 1/4", "5 1/4", "6"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Adding Mixed Numbers"]
+  },
+  {
+    "question": "What is the sum of 2 1/3 + 4 2/3?",
+    "options": ["7", "6", "7 1/3", "6 2/3"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Adding Mixed Numbers"]
+  },
+  {
+    "question": "What is the result of 5 2/5 + 3 3/5?",
+    "options": ["9", "8 5/5", "8 1/5", "8"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Adding Mixed Numbers"]
+  },
+  {
+    "question": "What is the sum of 7 1/6 + 2 5/6?",
+    "options": ["10", "9 1/6", "9 5/6", "10 1/6"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Adding Mixed Numbers"]
+  },
+  {
+    "question": "What is the result of 1/4 + 2/4?",
+    "options": ["3/4", "1/2", "1", "2/4"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Addition and Subtraction of Fractions"]
+  },
+  {
+    "question": "What is the result of 5/6 - 1/6?",
+    "options": ["2/3", "1/2", "4/6", "5/6"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Addition and Subtraction of Fractions"]
+  },
+  {
+    "question": "What is the result of 3/5 + 1/5?",
+    "options": ["4/5", "5/5", "6/5", "3/5"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Addition and Subtraction of Fractions"]
+  },
+  {
+    "question": "What is the result of 7/8 - 3/8?",
+    "options": ["4/8", "1/2", "5/8", "7/8"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Addition and Subtraction of Fractions"]
+  },
+  {
+    "question": "What is the result of 5/12 + 7/12?",
+    "options": ["12/12", "10/12", "11/12", "5/12"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Addition and Subtraction of Fractions"]
+  },
+  {
+    "question": "If x + 5 = 10, what is the value of x?",
+    "options": ["5", "10", "15", "0"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Addition Property of Equality"]
+  },
+  {
+    "question": "If 3 + x = 8, what is the value of x?",
+    "options": ["5", "3", "8", "0"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Addition Property of Equality"]
+  },
+  {
+    "question": "If x + 7 = 12, what is the value of x?",
+    "options": ["5", "7", "12", "19"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Addition Property of Equality"]
+  },
+  {
+    "question": "If x + 9 = 15, what is the value of x?",
+    "options": ["6", "5", "10", "8"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Addition Property of Equality"]
+  },
+  {
+    "question": "If x + 4 = 9, what is the value of x?",
+    "options": ["5", "9", "10", "4"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Addition Property of Equality"]
+  },
+  {
+    "question": "If Sarah has 5 apples and Tom has 3 apples, how many more apples does Sarah have than Tom?",
+    "options": ["2", "3", "4", "5"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Additive Comparison"]
+  },
+  {
+    "question": "If John has 7 books and Mary has 4 books, how many more books does John have than Mary?",
+    "options": ["3", "4", "5", "6"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Additive Comparison"]
+  },
+  {
+    "question": "If Emily has 9 candies and Jack has 6 candies, how many more candies does Emily have than Jack?",
+    "options": ["3", "4", "5", "6"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Additive Comparison"]
+  },
+  {
+    "question": "If a shop has 12 red shirts and 8 blue shirts, how many more red shirts are there than blue shirts?",
+    "options": ["4", "5", "6", "7"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Additive Comparison"]
+  },
+  {
+    "question": "If Lucy has 10 pencils and Mike has 7 pencils, how many more pencils does Lucy have than Mike?",
+    "options": ["2", "3", "4", "5"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Additive Comparison"]
+  },
+  {
+    "question": "What is the result of 5 + 0?",
+    "options": ["5", "0", "1", "10"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Additive Identity"]
+  },
+  {
+    "question": "What is the result of 7 * 1?",
+    "options": ["7", "1", "0", "14"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Multiplicative Identity"]
+  },
+  {
+    "question": "What is the result of 0 + 9?",
+    "options": ["9", "0", "1", "10"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Additive Identity"]
+  },
+  {
+    "question": "What is the result of 1 * 12?",
+    "options": ["12", "1", "0", "13"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Multiplicative Identity"]
+  },
+  {
+    "question": "What is the result of 3 + 0?",
+    "options": ["3", "0", "1", "6"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Additive Identity"]
+  },
+  {
+    "question": "What is the additive inverse of 5?",
+    "options": ["-5", "5", "0", "-1"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Additive Inverse"]
+  },
+  {
+    "question": "What is the additive inverse of -3?",
+    "options": ["3", "-3", "0", "1"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Additive Inverse"]
+  },
+  {
+    "question": "What is the additive inverse of 0?",
+    "options": ["0", "1", "-1", "2"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Additive Inverse"]
+  },
+  {
+    "question": "What is the additive inverse of 8?",
+    "options": ["-8", "8", "0", "-1"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Additive Inverse"]
+  },
+  {
+    "question": "What is the additive inverse of -12?",
+    "options": ["12", "-12", "0", "1"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Additive Inverse"]
+  },
+  {
+    "question": "If two angles form a straight line and one angle is 30°, what is the measure of the adjacent angle?",
+    "options": ["150°", "30°", "60°", "180°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Adjacent Angles"]
+  },
+  {
+    "question": "Two angles are adjacent and their sum is 90°. If one angle is 40°, what is the measure of the other angle?",
+    "options": ["50°", "40°", "30°", "60°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Adjacent Angles"]
+  },
+  {
+    "question": "If two adjacent angles add up to 180°, and one angle is 110°, what is the measure of the other angle?",
+    "options": ["70°", "110°", "90°", "80°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Adjacent Angles"]
+  },
+  {
+    "question": "If two adjacent angles form a right angle, what is the measure of each angle?",
+    "options": ["45°", "90°", "60°", "120°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Adjacent Angles"]
+  },
+  {
+    "question": "Two adjacent angles are complementary. If one angle measures 25°, what is the measure of the other angle?",
+    "options": ["65°", "55°", "75°", "45°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Adjacent Angles"]
+  },
+  {
+    "question": "What is the area of a rectangle with length 8 cm and width 5 cm?",
+    "options": ["40 cm²", "30 cm²", "50 cm²", "45 cm²"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Area"]
+  },
+  {
+    "question": "What is the area of a triangle with base 6 cm and height 4 cm?",
+    "options": ["12 cm²", "24 cm²", "16 cm²", "8 cm²"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Area"]
+  },
+  {
+    "question": "What is the area of a square with side length 7 cm?",
+    "options": ["49 cm²", "56 cm²", "42 cm²", "36 cm²"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Area"]
+  },
+  {
+    "question": "What is the area of a circle with radius 5 cm? (Use π ≈ 3.14)",
+    "options": ["78.5 cm²", "50 cm²", "35 cm²", "100 cm²"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Area"]
+  },
+  {
+    "question": "What is the area of a parallelogram with base 10 cm and height 6 cm?",
+    "options": ["60 cm²", "50 cm²", "70 cm²", "40 cm²"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Area"]
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 10 cm and width 4 cm?",
+    "options": ["28 cm", "24 cm", "30 cm", "40 cm"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Area and Perimeter"]
+  },
+  {
+    "question": "What is the area of a triangle with base 6 cm and height 8 cm?",
+    "options": ["24 cm²", "30 cm²", "48 cm²", "18 cm²"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Area and Perimeter"]
+  },
+  {
+    "question": "What is the perimeter of a square with side length 5 cm?",
+    "options": ["20 cm", "25 cm", "15 cm", "10 cm"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Area and Perimeter"]
+  },
+  {
+    "question": "What is the area of a circle with radius 7 cm? (Use π ≈ 3.14)",
+    "options": ["153.86 cm²", "140 cm²", "120 cm²", "180 cm²"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Area and Perimeter"]
+  },
+  {
+    "question": "What is the perimeter of a parallelogram with base 12 cm and side 5 cm?",
+    "options": ["34 cm", "25 cm", "40 cm", "30 cm"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Area and Perimeter"]
+  },
+  {
+    "question": "What is the result of 8 + 15?",
+    "options": ["23", "25", "22", "24"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Arithmetic"]
+  },
+  {
+    "question": "What is the result of 12 × 7?",
+    "options": ["84", "74", "78", "88"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Arithmetic"]
+  },
+  {
+    "question": "What is the result of 50 ÷ 5?",
+    "options": ["10", "12", "9", "8"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Arithmetic"]
+  },
+  {
+    "question": "What is the result of 24 − 18?",
+    "options": ["6", "7", "5", "4"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Arithmetic"]
+  },
+  {
+    "question": "What is the result of 15 + 6 × 2?",
+    "options": ["27", "26", "25", "28"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Arithmetic"]
+  },
+  {
+    "question": "What is the result of multiplying 3 × 4?",
+    "options": ["12", "13", "14", "11"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Multiplication Array"]
+  },
+  {
+    "question": "What is the result of multiplying 5 × 6?",
+    "options": ["30", "31", "32", "29"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Multiplication Array"]
+  },
+  {
+    "question": "What is the result of multiplying 7 × 8?",
+    "options": ["56", "58", "55", "60"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Multiplication Array"]
+  },
+  {
+    "question": "What is the result of multiplying 9 × 10?",
+    "options": ["90", "91", "89", "92"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Multiplication Array"]
+  },
+  {
+    "question": "What is the result of multiplying 4 × 11?",
+    "options": ["44", "45", "46", "42"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Multiplication Array"]
+  },
+  {
+    "question": "Which of the following shows the associative property of addition: (3 + 4) + 5 = 3 + (4 + 5)?",
+    "options": ["True", "False", "Not Sure", "Invalid"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Associative Property"]
+  },
+  {
+    "question": "Which of the following shows the associative property of multiplication: (2 × 3) × 4 = 2 × (3 × 4)?",
+    "options": ["True", "False", "Not Sure", "Invalid"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Associative Property"]
+  },
+  {
+    "question": "Which of the following is an example of the associative property of addition?",
+    "options": ["(5 + 2) + 3 = 5 + (2 + 3)", "(5 × 2) × 3 = 5 × (2 × 3)", "(6 − 2) − 3 = 6 − (2 − 3)", "None of the above"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Associative Property"]
+  },
+  {
+    "question": "Which of the following shows the associative property of multiplication?",
+    "options": ["(4 × 5) × 6 = 4 × (5 × 6)", "(4 + 5) + 6 = 4 + (5 + 6)", "(8 ÷ 2) ÷ 4 = 8 ÷ (2 ÷ 4)", "None of the above"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Associative Property"]
+  },
+  {
+    "question": "Which of the following equations follows the associative property of addition?",
+    "options": ["(7 + 8) + 9 = 7 + (8 + 9)", "(7 × 8) × 9 = 7 × (8 × 9)", "(3 − 1) − 2 = 3 − (1 − 2)", "None of the above"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Associative Property"]
+  },
+  {
+    "question": "Which of the following is an attribute of a triangle?",
+    "options": ["Sides", "Color", "Shape", "Time"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Attribute"]
+  },
+  {
+    "question": "Which of the following is an attribute of a person?",
+    "options": ["Height", "Speed", "Area", "Color of a triangle"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Attribute"]
+  },
+  {
+    "question": "Which of the following is an example of an attribute of a rectangle?",
+    "options": ["Length", "Volume", "Weight", "Time"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Attribute"]
+  },
+  {
+    "question": "Which of the following is an attribute of a car?",
+    "options": ["Color", "Temperature", "Height", "None of the above"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Attribute"]
+  },
+  {
+    "question": "Which of the following is an attribute of a square?",
+    "options": ["Side length", "Angle measure", "Shape", "All of the above"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Attribute"]
+  },
+  {
+    "question": "What is the base in the expression 3^4?",
+    "options": ["3", "4", "7", "12"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Base of an Exponent"]
+  },
+  {
+    "question": "What is the base in the expression 5^2?",
+    "options": ["5", "2", "25", "10"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Base of an Exponent"]
+  },
+  {
+    "question": "What is the base in the expression 10^3?",
+    "options": ["10", "3", "30", "1000"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Base of an Exponent"]
+  },
+  {
+    "question": "What is the base in the expression 7^5?",
+    "options": ["7", "5", "35", "12"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Base of an Exponent"]
+  },
+  {
+    "question": "What is the base in the expression 2^6?",
+    "options": ["2", "6", "12", "64"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Base of an Exponent"]
+  },
+  {
+    "question": "Which of the following is a property of a circle?",
+    "options": ["All points are equidistant from the center", "It has four sides", "It has three corners", "It has angles of 90 degrees"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Circle"]
+  },
+  {
+    "question": "What is the radius of a circle?",
+    "options": ["The distance from the center to any point on the circle", "The distance between two points on the circle", "The area of the circle", "The circumference of the circle"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Circle"]
+  },
+  {
+    "question": "Which of the following is NOT related to a circle?",
+    "options": ["Diameter", "Circumference", "Edge", "Area"],
+    "scores": [0, 0, 1, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Circle"]
+  },
+  {
+    "question": "What is the formula for the area of a circle?",
+    "options": ["πr^2", "2πr", "πd", "r^2"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Circle"]
+  },
+  {
+    "question": "What does the circumference of a circle represent?",
+    "options": ["The distance around the circle", "The area inside the circle", "The diameter of the circle", "The center of the circle"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Circle"]
+  },
+  {
+    "question": "Which of the following is a classification based on the angles of a triangle?",
+    "options": ["Acute, Right, Obtuse", "Equilateral, Isosceles, Scalene", "Scalene, Right, Acute", "None of the above"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Classification of Triangles"]
+  },
+  {
+    "question": "Which type of triangle has all three sides equal?",
+    "options": ["Equilateral", "Scalene", "Isosceles", "Right"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Classification of Triangles"]
+  },
+  {
+    "question": "Which of the following triangles has one angle equal to 90 degrees?",
+    "options": ["Right triangle", "Scalene triangle", "Acute triangle", "Obtuse triangle"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Classification of Triangles"]
+  },
+  {
+    "question": "Which of the following is a classification based on the lengths of sides of a triangle?",
+    "options": ["Equilateral, Isosceles, Scalene", "Acute, Right, Obtuse", "Acute, Scalene, Right", "None of the above"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Classification of Triangles"]
+  },
+  {
+    "question": "Which triangle has all three sides of different lengths?",
+    "options": ["Scalene", "Isosceles", "Equilateral", "Right"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["Classification of Triangles"]
+  }
+
+]

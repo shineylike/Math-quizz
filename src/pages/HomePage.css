@@ -12,3 +12,247 @@
     font-size: 1.2em;
     color: #666;
 }
+
+.button {
+    display: inline-block;
+    padding: 0.8em 2em;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, #89CFF0 50%, #FF69B4 50%);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-position 0.4s, transform 0.2s;
+    background-size: 200%;
+    background-position: 0%;
+}
+
+.button:hover {
+    background-position: 100%;
+    transform: scale(1.1);
+}
+
+.button:active {
+    transform: scale(1.05);
+}
+.home-page {
+    text-align: center;
+    margin: 2em 0;
+}
+
+button {
+    padding: 1em 2em;
+    font-size: 1rem;
+    margin: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    background-color: #61dafb;
+    color: white;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.home-page {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.tests-section {
+    margin-top: 2em;
+}
+
+.tests-section h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.tests-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.test-link {
+    display: block;
+    padding: 1em;
+    margin: 1em 0;
+    font-size: 1rem;
+    color: white;
+    background-color: #61dafb;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.test-link:hover {
+    background-color: #21a1f1; /* Slightly darker shade */
+}
+
+.test-link:active {
+    background-color: #0e7bc7; /* Even darker shade on click */
+}
+
+.home-page {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.tests-section {
+    margin-top: 2em;
+}
+
+.test-button {
+    position: relative;
+    display: inline-block;
+    padding: 1em;
+    background-color: #61dafb;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.test-button p {
+    margin: 0;
+}
+
+.test-dropdown {
+    position: absolute;
+    top: 100%; /* Position the dropdown just below the button */
+    left: 0;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+    width: 200px; /* Set the width of the dropdown */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Small shadow for effect */
+    display: block;
+    z-index: 10;
+}
+
+.test-dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.test-dropdown li {
+    padding: 0.5em 0;
+}
+
+.test-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 0;
+}
+
+.test-link:hover {
+    background-color: #21a1f1; /* Slightly darker shade */
+}
+
+.home-page {
+    text-align: center;
+    padding: 2em;
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center the content */
+}
+
+.home-page > section {
+    width: 70%; /* Take up 70% of the page's width */
+    margin: 1em 0; /* Adds spacing between sections */
+    padding: 1em;
+    background: linear-gradient(135deg, #00b0ff, #ff6ec7); /* Blue to pink gradient */
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left; /* Align text to the left */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.home-page > section:nth-child(odd) {
+    align-self: flex-start; /* Align odd sections to the left */
+}
+
+.home-page > section:nth-child(even) {
+    align-self: flex-end; /* Align even sections to the right */
+}
+
+/* Hover effect */
+.home-page > section:hover {
+    transform: scale(1.05); /* Makes the section bigger */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Adds a shadow for emphasis */
+}
+
+/* What You Can Learn Section */
+.what-you-can-learn-section {
+    background: linear-gradient(135deg, #00b0ff, #ff6ec7); /* Blue to pink gradient */
+}
+
+.what-you-can-learn-section h3 {
+    font-size: 1.2em; /* Smaller text */
+    margin-bottom: 1em;
+}
+
+.what-you-can-learn-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.what-you-can-learn-section li {
+    font-size: 0.9em; /* Smaller text */
+    margin: 8px 0;
+}
+
+.what-you-can-learn-section strong {
+    font-weight: bold;
+}
+
+/* Features Section */
+.features-section {
+    background: linear-gradient(135deg, #00b0ff, #ff6ec7); /* Blue to pink gradient */
+}
+
+.features-section h3 {
+    font-size: 1.2em; /* Smaller text */
+    margin-bottom: 1em;
+}
+
+.features-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features-section li {
+    font-size: 0.9em; /* Smaller text */
+    margin: 8px 0;
+}
+
+.features-section strong {
+    font-weight: bold;
+}
+
+/* Third Section: Get Started */
+.get-started-section {
+    background: linear-gradient(135deg, #00b0ff, #ff6ec7); /* Blue to pink gradient */
+}
+
+.get-started-section h3 {
+    font-size: 1.2em; /* Smaller text */
+    margin-bottom: 1em;
+}
+
+.get-started-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.get-started-section li {
+    font-size: 0.9em; /* Smaller text */
+    margin: 8px 0;
+}

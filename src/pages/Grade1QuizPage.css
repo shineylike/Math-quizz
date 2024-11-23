@@ -1,0 +1,37 @@
+/* Grade1Quiz.css */
+.quiz-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.answer-button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.answer-button:hover {
+    background-color: #45a049;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #FF69B4;
+    color: white;
+}
+
+button:hover {
+    background-color: #ff1e5a;
+}

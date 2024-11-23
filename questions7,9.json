@@ -1,0 +1,498 @@
+[
+  {
+    "question": "What is the result of A ∩ B' if A = {1, 2, 3, 4} and B = {3, 4, 5, 6}?",
+    "options": ["{1, 2}", "{3, 4}", "{1, 2, 5, 6}", "{}"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["A Intersection B Complement"]
+  },
+  {
+    "question": "If A = {a, b, c, d} and B = {c, d, e, f}, what is A ∩ B'?",
+    "options": ["{a, b}", "{c, d}", "{a, b, e, f}", "{}"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["A Intersection B Complement"]
+  },
+  {
+    "question": "Find A ∩ B' if A = {x, y, z} and B = {y, z, w}.",
+    "options": ["{x}", "{y, z}", "{x, w}", "{}"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["A Intersection B Complement"]
+  },
+  {
+    "question": "What is A ∩ B' for A = {1, 2, 3} and B = {2, 3, 4}?",
+    "options": ["{1}", "{2, 3}", "{1, 4}", "{}"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["A Intersection B Complement"]
+  },
+  {
+    "question": "If A = {apple, banana, cherry} and B = {banana, cherry, date}, what is A ∩ B'?",
+    "options": ["{apple}", "{banana, cherry}", "{apple, date}", "{}"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 2,
+    "challenge_level": 2,
+    "explanation": ["A Intersection B Complement"]
+  },
+    {
+      "question": "What is the absolute value of -5?",
+      "options": ["5", "-5", "0", "10"],
+      "scores": [1, 0, 0, 0],
+      "totalScore": 1,
+      "skill_level": 1,
+      "challenge_level": 1,
+      "explanation": ["Absolute Value"]
+    },
+    {
+      "question": "What is the absolute value of 3?",
+      "options": ["3", "-3", "0", "6"],
+      "scores": [1, 0, 0, 0],
+      "totalScore": 1,
+      "skill_level": 1,
+      "challenge_level": 1,
+      "explanation": ["Absolute Value"]
+    },
+    {
+      "question": "Find the absolute value of -12 + 7.",
+      "options": ["5", "12", "7", "19"],
+      "scores": [1, 0, 0, 0],
+      "totalScore": 1,
+      "skill_level": 2,
+      "challenge_level": 2,
+      "explanation": ["Absolute Value"]
+    },
+    {
+      "question": "What is the absolute value of the difference between -8 and 3?",
+      "options": ["11", "5", "1", "8"],
+      "scores": [1, 0, 0, 0],
+      "totalScore": 1,
+      "skill_level": 2,
+      "challenge_level": 2,
+      "explanation": ["Absolute Value"]
+    },
+    {
+      "question": "What is the absolute value of -17?",
+      "options": ["17", "-17", "0", "34"],
+      "scores": [1, 0, 0, 0],
+      "totalScore": 1,
+      "skill_level": 1,
+      "challenge_level": 1,
+      "explanation": ["Absolute Value"]
+    },
+  {
+    "question": "What is the result of (a + b)²?",
+    "options": ["a² + 2ab + b²", "a² + b²", "a + b", "2a + 2b"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Algebraic Identities"]
+  },
+  {
+    "question": "What is the result of (a - b)²?",
+    "options": ["a² - 2ab + b²", "a² - b²", "a - b", "2a - 2b"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Algebraic Identities"]
+  },
+  {
+    "question": "What is the result of (a + b)(a - b)?",
+    "options": ["a² - b²", "a² + b²", "a + b", "a - b"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Algebraic Identities"]
+  },
+  {
+    "question": "What is the result of a² - b²?",
+    "options": ["(a + b)(a - b)", "(a - b)(a + b)", "a + b", "a - b"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Algebraic Identities"]
+  },
+  {
+    "question": "What is the result of (x + 3)(x - 3)?",
+    "options": ["x² - 9", "x² + 9", "3x", "x + 3"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Algebraic Identities"]
+  },
+  {
+    "question": "If two parallel lines are cut by a transversal, and one angle measures 50°, what is the measure of the alternate angle?",
+    "options": ["50°", "130°", "90°", "60°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Alternate Angles"]
+  },
+  {
+    "question": "If two parallel lines are cut by a transversal, and one angle measures 110°, what is the measure of the alternate angle?",
+    "options": ["70°", "110°", "90°", "180°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Alternate Angles"]
+  },
+  {
+    "question": "Two parallel lines are cut by a transversal. If one angle measures 40°, what is the measure of its alternate angle?",
+    "options": ["40°", "140°", "50°", "180°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Alternate Angles"]
+  },
+  {
+    "question": "If two parallel lines are cut by a transversal and one angle measures 75°, what is the measure of the alternate angle?",
+    "options": ["75°", "105°", "180°", "90°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Alternate Angles"]
+  },
+  {
+    "question": "If two parallel lines are cut by a transversal and one angle measures 60°, what is the measure of the alternate angle?",
+    "options": ["60°", "120°", "90°", "30°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Alternate Angles"]
+  },
+  {
+    "question": "If two parallel lines are cut by a transversal, and one exterior angle measures 70°, what is the measure of the alternate exterior angle?",
+    "options": ["70°", "110°", "90°", "180°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Alternate Exterior Angles"]
+  },
+  {
+    "question": "If two parallel lines are cut by a transversal, and one exterior angle measures 120°, what is the measure of the alternate exterior angle?",
+    "options": ["120°", "60°", "90°", "180°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Alternate Exterior Angles"]
+  },
+  {
+    "question": "If two parallel lines are cut by a transversal and one exterior angle measures 45°, what is the measure of the alternate exterior angle?",
+    "options": ["45°", "135°", "90°", "180°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Alternate Exterior Angles"]
+  },
+  {
+    "question": "If two parallel lines are cut by a transversal and one exterior angle measures 80°, what is the measure of the alternate exterior angle?",
+    "options": ["80°", "100°", "60°", "180°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Alternate Exterior Angles"]
+  },
+  {
+    "question": "If two parallel lines are cut by a transversal, and one exterior angle measures 50°, what is the measure of the alternate exterior angle?",
+    "options": ["50°", "130°", "90°", "180°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Alternate Exterior Angles"]
+  },
+  {
+    "question": "If two parallel lines are cut by a transversal, and one interior angle measures 60°, what is the measure of the alternate interior angle?",
+    "options": ["60°", "120°", "90°", "180°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Alternate Interior Angles"]
+  },
+  {
+    "question": "If two parallel lines are cut by a transversal, and one interior angle measures 110°, what is the measure of the alternate interior angle?",
+    "options": ["110°", "70°", "90°", "180°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Alternate Interior Angles"]
+  },
+  {
+    "question": "If two parallel lines are cut by a transversal, and one interior angle measures 35°, what is the measure of the alternate interior angle?",
+    "options": ["35°", "145°", "90°", "180°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Alternate Interior Angles"]
+  },
+  {
+    "question": "If two parallel lines are cut by a transversal, and one interior angle measures 50°, what is the measure of the alternate interior angle?",
+    "options": ["50°", "130°", "90°", "180°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Alternate Interior Angles"]
+  },
+  {
+    "question": "If two parallel lines are cut by a transversal, and one interior angle measures 75°, what is the measure of the alternate interior angle?",
+    "options": ["75°", "105°", "90°", "180°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Alternate Interior Angles"]
+  },
+  {
+    "question": "If an angle is bisected and one of the resulting angles measures 40°, what is the measure of the original angle?",
+    "options": ["80°", "40°", "20°", "60°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angle Bisector"]
+  },
+  {
+    "question": "If an angle is bisected and one of the resulting angles measures 30°, what is the measure of the original angle?",
+    "options": ["60°", "30°", "15°", "45°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angle Bisector"]
+  },
+  {
+    "question": "If an angle is bisected and one of the resulting angles measures 50°, what is the measure of the original angle?",
+    "options": ["100°", "50°", "25°", "75°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angle Bisector"]
+  },
+  {
+    "question": "If an angle is bisected and one of the resulting angles measures 60°, what is the measure of the original angle?",
+    "options": ["120°", "60°", "30°", "90°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angle Bisector"]
+  },
+  {
+    "question": "If an angle is bisected and one of the resulting angles measures 70°, what is the measure of the original angle?",
+    "options": ["140°", "70°", "35°", "60°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angle Bisector"]
+  },
+  {
+    "question": "In a triangle, if an angle bisector divides the opposite side into segments of lengths 4 cm and 6 cm, what is the ratio of the lengths of these segments?",
+    "options": ["2:3", "3:2", "1:2", "2:1"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 4,
+    "challenge_level": 4,
+    "explanation": ["Angle Bisector Theorem"]
+  },
+  {
+    "question": "In triangle ABC, if the angle bisector of angle A divides side BC into segments of 5 cm and 10 cm, what is the ratio of the lengths of the two segments?",
+    "options": ["1:2", "2:1", "3:1", "1:3"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 4,
+    "challenge_level": 4,
+    "explanation": ["Angle Bisector Theorem"]
+  },
+  {
+    "question": "In a triangle, if an angle bisector divides the opposite side into segments of lengths 3 cm and 9 cm, what is the ratio of the lengths of these segments?",
+    "options": ["1:3", "3:1", "1:2", "2:1"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 4,
+    "challenge_level": 4,
+    "explanation": ["Angle Bisector Theorem"]
+  },
+  {
+    "question": "In a triangle, if the angle bisector divides the opposite side into segments of lengths 6 cm and 12 cm, what is the ratio of the lengths of these segments?",
+    "options": ["1:2", "2:1", "3:1", "1:3"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 4,
+    "challenge_level": 4,
+    "explanation": ["Angle Bisector Theorem"]
+  },
+  {
+    "question": "In triangle XYZ, if the angle bisector of angle X divides side YZ into segments of 8 cm and 16 cm, what is the ratio of the lengths of the two segments?",
+    "options": ["1:2", "2:1", "3:1", "1:3"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 4,
+    "challenge_level": 4,
+    "explanation": ["Angle Bisector Theorem"]
+  },
+  {
+    "question": "What is the measure of an angle if its supplement is 120°?",
+    "options": ["60°", "80°", "100°", "120°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angle Measure"]
+  },
+  {
+    "question": "What is the measure of an angle if its complement is 45°?",
+    "options": ["135°", "45°", "55°", "90°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angle Measure"]
+  },
+  {
+    "question": "What is the measure of an angle if its supplement is 90°?",
+    "options": ["90°", "45°", "180°", "270°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angle Measure"]
+  },
+  {
+    "question": "What is the measure of an angle if its complement is 30°?",
+    "options": ["60°", "90°", "30°", "150°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angle Measure"]
+  },
+  {
+    "question": "What is the measure of an angle if its supplement is 150°?",
+    "options": ["30°", "50°", "180°", "200°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angle Measure"]
+  },
+  {
+    "question": "In a triangle, if two angles measure 50° and 60°, what is the measure of the third angle?",
+    "options": ["70°", "80°", "90°", "100°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angle Sum Property of a Triangle"]
+  },
+  {
+    "question": "In a triangle, if two angles measure 40° and 80°, what is the measure of the third angle?",
+    "options": ["60°", "70°", "100°", "90°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angle Sum Property of a Triangle"]
+  },
+  {
+    "question": "In a triangle, if two angles measure 45° and 45°, what is the measure of the third angle?",
+    "options": ["90°", "45°", "50°", "60°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angle Sum Property of a Triangle"]
+  },
+  {
+    "question": "In a triangle, if one angle measures 70° and the other two angles are equal, what is the measure of each of the equal angles?",
+    "options": ["55°", "65°", "70°", "60°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angle Sum Property of a Triangle"]
+  },
+  {
+    "question": "In a triangle, if two angles measure 30° and 90°, what is the measure of the third angle?",
+    "options": ["60°", "45°", "70°", "75°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angle Sum Property of a Triangle"]
+  },
+  {
+    "question": "What is the sum of the interior angles of a quadrilateral?",
+    "options": ["360°", "180°", "270°", "90°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angles in a Quadrilateral"]
+  },
+  {
+    "question": "In a quadrilateral, if three angles measure 80°, 90°, and 100°, what is the measure of the fourth angle?",
+    "options": ["90°", "80°", "100°", "90°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angles in a Quadrilateral"]
+  },
+  {
+    "question": "In a quadrilateral, if one angle measures 120° and the other three angles are equal, what is the measure of each of the equal angles?",
+    "options": ["60°", "90°", "80°", "70°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angles in a Quadrilateral"]
+  },
+  {
+    "question": "In a quadrilateral, if one angle measures 130° and the other three angles are 50°, 90°, and 90°, what is the sum of the three remaining angles?",
+    "options": ["230°", "270°", "180°", "360°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angles in a Quadrilateral"]
+  },
+  {
+    "question": "In a quadrilateral, if the four angles are 90°, 80°, 100°, and 90°, what is the sum of these angles?",
+    "options": ["360°", "340°", "270°", "280°"],
+    "scores": [1, 0, 0, 0],
+    "totalScore": 1,
+    "skill_level": 3,
+    "challenge_level": 3,
+    "explanation": ["Angles in a Quadrilateral"]
+  }
+
+]

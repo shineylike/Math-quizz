@@ -1,0 +1,47 @@
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.signup-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+.signup-page p {
+    font-size: 1.2rem;
+    margin-bottom: 2em;
+}
+
+.button-group {
+    display: flex;
+    gap: 1em;
+}
+
+.button {
+    padding: 0.8em 2em;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, #89CFF0 50%, #FF69B4 50%);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-position 0.4s, transform 0.2s;
+    background-size: 200%;
+    background-position: 0%;
+}
+
+.button:hover {
+    background-position: 100%;
+    transform: scale(1.1);
+}
+
+.button:active {
+    transform: scale(1.05);
+}

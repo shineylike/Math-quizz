@@ -5,13 +5,15 @@ import { useNavigate } from 'react-router-dom';
 
 function HomePage() {
     const navigate = useNavigate();
+    const startQuiz = () => {
+        navigate('/quiz');
+    };
 
     return (
         <div className="home-page">
             <h2>Welcome to My App</h2>
             <p>This is a simple, client-side React application.</p>
-            <a href="src/pages/quizz/index.html">GitHub Repository</a>
-            <Button label="Start quizz" onClick={() => navigate('/quizz/index.html')} />
+            <Button label="Start quizz" onClick={startQuiz}>Start Quiz</Button>
         </div>
     );
 }

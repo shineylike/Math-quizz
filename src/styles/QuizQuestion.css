@@ -1,0 +1,61 @@
+.quiz-question {
+    margin-bottom: 30px;
+}
+
+.option-button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.option-button.correct {
+    background-color: #4CAF50; /* Green for correct answers */
+    color: white;
+}
+
+.option-button.incorrect {
+    background-color: #F44336; /* Red for incorrect answers */
+    color: white;
+}
+
+.option-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+
+.quiz-question h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.quiz-question ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quiz-question li {
+    margin-bottom: 10px;
+}
+
+.quiz-question button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quiz-question button:hover {
+    background-color: #005f6b;
+}

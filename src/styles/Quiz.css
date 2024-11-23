@@ -1,0 +1,26 @@
+.quiz-container {
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+}
+
+.quiz-container.hidden {
+    display: none;
+}
+
+.quiz-container.visible {
+    display: block;
+}
+
+.quiz-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.score-section {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+    margin-top: 20px;
+}

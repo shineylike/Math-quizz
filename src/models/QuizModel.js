@@ -1,5 +1,6 @@
+/*QuizModel.js*/
 class QuizModel {
-    constructor(question, options, scores, totalScore, skillLevel, challengeLevel, explanation) {
+    constructor(question = '', options = [], scores = [], totalScore = 0, skillLevel = '', challengeLevel = '', explanation = '') {
         this.question = question;
         this.options = options;
         this.scores = scores;
@@ -7,18 +8,6 @@ class QuizModel {
         this.skillLevel = skillLevel;
         this.challengeLevel = challengeLevel;
         this.explanation = explanation;
-    }
-
-    getQuestion() {
-        return this.question;
-    }
-
-    getOptions() {
-        return this.options;
-    }
-
-    getExplanation() {
-        return this.explanation;
     }
 
     calculateScore(selectedIndex) {

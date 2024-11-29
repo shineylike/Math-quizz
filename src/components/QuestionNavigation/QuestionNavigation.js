@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Button from "../Button/Button";
 import './QuestionNavigation.css';
 
-const QuestionNavigation = ({ questions, currentQuestion, goToQuestion, hidden, toggleMenu }) => {
+const QuestionNavigation = ({ questions, currentQuestion, goToQuestion, hidden, toggleMenu, quizList, quizFinished, handleSkipQuestion, handleFinishQuiz, handleAnswer, isAnswered}) => {
     return (
         <div className={`question-navigation ${hidden ? 'hidden' : ''}`}>
-            <button className="toggle-button" onClick={toggleMenu}>
+            <div class="button-wrapper"><button className="toggle-button" onClick={toggleMenu}>
                 {hidden ? 'Show Menu' : 'Hide Menu'}
             </button>
             {!hidden && (
@@ -21,7 +22,25 @@ const QuestionNavigation = ({ questions, currentQuestion, goToQuestion, hidden, 
                     ))}
                 </div>
             )}
+
+
+            </div>
+            <Button
+                label="Next"
+                onClick={handleAnswer}
+                disabled={!isAnswered} // Disable until an answer is selected
+            />
+            <Button
+                label="Skip"
+                onClick={() => handleSkipQuestion()}
+                disabled={currentQuestion >= quizList.length - 1 || quizFinished}
+            />
+            <Button
+                label="Finish Quiz"
+                onClick={() => handleFinishQuiz()}
+            />
         </div>
+
     );
 };
 

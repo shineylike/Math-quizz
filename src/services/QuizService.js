@@ -1,3 +1,4 @@
+/*QuizService.js*/
 import QuizModel from '../models/QuizModel';
 import quizData from '../data/quiz.json';
 

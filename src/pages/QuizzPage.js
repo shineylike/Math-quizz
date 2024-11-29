@@ -1,3 +1,4 @@
+/*QuizzPage.js*/
 import React, { useState } from 'react';
 import QuizService from '../services/QuizService';
 import QuizQuestion from '../components/QuizQuestion';
@@ -45,12 +46,6 @@ const Quiz = () => {
                 }
             });
         }, 1000);
-    };
-
-    const handleNextQuestion = () => {
-        if (currentQuestion < quizList.length - 1) {
-            setCurrentQuestion((prevQuestion) => prevQuestion + 1);
-        }
     };
 
     const handleSkipQuestion = () => {
@@ -119,23 +114,12 @@ const Quiz = () => {
                         goToQuestion={goToQuestion}
                         hidden={menuHidden}
                         toggleMenu={toggleMenu}
+                        quizList = {quizList}
+                        quizFinished = {quizFinished}
+                        handleSkipQuestion = {handleSkipQuestion}
+                        handleFinishQuiz = {handleFinishQuiz}
                     />
-                    <div className="quiz-navigation-buttons">
-                        <Button
-                            label="Next"
-                            onClick={() => handleNextQuestion()}
-                            disabled={currentQuestion >= quizList.length - 1 || quizFinished}
-                        />
-                        <Button
-                            label="Skip"
-                            onClick={() => handleSkipQuestion()}
-                            disabled={currentQuestion >= quizList.length - 1 || quizFinished}
-                        />
-                        <Button
-                            label="Finish Quiz"
-                            onClick={() => handleFinishQuiz()}
-                        />
-                    </div>
+
 
                 </div>
             </div>

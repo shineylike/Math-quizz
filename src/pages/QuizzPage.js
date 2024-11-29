@@ -4,41 +4,67 @@ import QuizQuestion from '../components/QuizQuestion';
 import Popup from '../components/Popup';
 import Timer from '../components/Timer';
 import Button from '../components/Button/Button';
+import QuestionNavigation from '../components/QuestionNavigation/QuestionNavigation';
 import '../styles/Quiz.css';
 
 const Quiz = () => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
+    const [menuHidden, setMenuHidden] = useState(true); // State to manage menu visibility
     const [score, setScore] = useState(0);
     const [showPopup, setShowPopup] = useState(true);
     const [quizFinished, setQuizFinished] = useState(false);
     const quizService = new QuizService();
     const quizList = quizService.getQuizList();
 
-    // Set the initial quiz time (e.g., 5 minutes)
-    const initialQuizTime = 5 * 60; // 5 minutes in seconds
+    const initialQuizTime = 30 * 60;
 
-    // Callback function when the timer ends
     const handleTimeUp = () => {
         setQuizFinished(true);
     };
 
-    const handleAnswer = (selectedIndex) => {
-        const question = quizList[currentQuestion];
-        const questionScore = question.calculateScore(selectedIndex);
-        setScore(score + questionScore);
-
-        // Move to the next question after a short delay if there are more questions
-        setTimeout(() => {
-            if (currentQuestion + 1 < quizList.length) {
-                setCurrentQuestion(currentQuestion + 1);
-            } else {
-                setQuizFinished(true); // End quiz if no more questions
-            }
-        }, 1000); // 1-second delay to show correct/incorrect feedback
+    const goToQuestion = (index) => {
+        setCurrentQuestion(index);
     };
 
+    const toggleMenu = () => {
+        setMenuHidden((prevState) => !prevState);
+    };
 
-    // Reset quiz if user wants to restart
+    const handleAnswer = (selectedIndex) => {
+        const question = quizList[currentQuestion];
+        const questionScore = question.scores[selectedIndex];
+        setScore((prevScore) => prevScore + questionScore);
+
+        setTimeout(() => {
+            setCurrentQuestion((prevQuestion) => {
+                if (prevQuestion + 1 < quizList.length) {
+                    return prevQuestion + 1;
+                } else {
+                    setQuizFinished(true);
+                    return prevQuestion;
+                }
+            });
+        }, 1000);
+    };
+
+    const handleNextQuestion = () => {
+        if (currentQuestion < quizList.length - 1) {
+            setCurrentQuestion((prevQuestion) => prevQuestion + 1);
+        }
+    };
+
+    const handleSkipQuestion = () => {
+        if (currentQuestion < quizList.length - 1) {
+            setCurrentQuestion((prevQuestion) => prevQuestion + 1);
+        } else {
+            setQuizFinished(true);
+        }
+    };
+
+    const handleFinishQuiz = () => {
+        setQuizFinished(true);
+    };
+
     const restartQuiz = () => {
         setCurrentQuestion(0);
         setScore(0);
@@ -47,37 +73,31 @@ const Quiz = () => {
     };
 
     return (
-        <div>
+        <div className="quiz-wrapper">
             {showPopup && (
                 <Popup
                     onClose={() => setShowPopup(false)}
-                    time="5 minutes"
+                    time="30 minutes"
                     totalQuestions={quizService.getTotalQuestions()}
                     rules="Answer each question within the time limit."
                 />
             )}
 
-            {/* Conditionally render the quiz container based on popup visibility */}
             <div className={`quiz-container ${showPopup ? 'hidden' : 'visible'}`}>
-                {/* Display the Timer if the quiz has not finished */}
                 {!quizFinished && (
                     <Timer
                         initialTime={initialQuizTime}
                         onTimeUp={handleTimeUp}
-                        isQuizFinished={quizFinished} // Pass quizFinished state to Timer
+                        isQuizFinished={quizFinished}
                     />
                 )}
 
-                {/* Display questions or show final score if quiz is finished */}
-                {quizFinished ? (
-                    <div className="score-section">
-                        <h2>Time's Up! Quiz Finished!</h2>
-                        <p>Your Final Score: {score}</p>
-                        <Button label = "Restart quiz" onClick={restartQuiz}>Restart Quiz</Button>
-                    </div>
-                ) : (
-                    <>
-                        {currentQuestion < quizList.length && !quizFinished ? (
+                <div className="quiz-content">
+
+
+                    {/* Quiz Question */}
+                    <div className="quiz-question-wrapper">
+                        {!quizFinished ? (
                             <QuizQuestion
                                 question={quizList[currentQuestion]}
                                 onAnswer={handleAnswer}
@@ -86,11 +106,38 @@ const Quiz = () => {
                             <div className="score-section">
                                 <h2>Quiz Completed!</h2>
                                 <p>Your Score: {score}</p>
-                                <Button label = "Restart quiz" onClick={restartQuiz}>Restart Quiz</Button>
+                                <Button label="Restart Quiz" onClick={restartQuiz}>
+                                    Restart Quiz
+                                </Button>
                             </div>
                         )}
-                    </>
-                )}
+                    </div>
+                    {/* Question Navigation */}
+                    <QuestionNavigation
+                        questions={quizList}
+                        currentQuestion={currentQuestion}
+                        goToQuestion={goToQuestion}
+                        hidden={menuHidden}
+                        toggleMenu={toggleMenu}
+                    />
+                    <div className="quiz-navigation-buttons">
+                        <Button
+                            label="Next"
+                            onClick={() => handleNextQuestion()}
+                            disabled={currentQuestion >= quizList.length - 1 || quizFinished}
+                        />
+                        <Button
+                            label="Skip"
+                            onClick={() => handleSkipQuestion()}
+                            disabled={currentQuestion >= quizList.length - 1 || quizFinished}
+                        />
+                        <Button
+                            label="Finish Quiz"
+                            onClick={() => handleFinishQuiz()}
+                        />
+                    </div>
+
+                </div>
             </div>
         </div>
     );

@@ -2,7 +2,7 @@ import QuizModel from '../models/QuizModel';
 import quizData from '../data/quiz.json';
 
 class QuizService {
-    constructor(maxQuestions = 10) {
+    constructor(maxQuestions = 100) {
         const shuffledQuizData = this.shuffleArray(quizData);
 
         const limitedQuizData = shuffledQuizData.slice(0, maxQuestions);

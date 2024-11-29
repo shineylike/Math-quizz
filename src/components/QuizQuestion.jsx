@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import '../styles/QuizQuestion.css';
 
 const QuizQuestion = ({ question, onAnswer }) => {
@@ -41,9 +40,6 @@ const QuizQuestion = ({ question, onAnswer }) => {
     );
 };
 
-QuizQuestion.propTypes = {
-    question: PropTypes.object.isRequired,
-    onAnswer: PropTypes.func.isRequired,
-};
+
 
 export default QuizQuestion;

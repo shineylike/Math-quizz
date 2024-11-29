@@ -4,11 +4,12 @@
 }
 
 .dropdown-button {
-    background-color: #333;
-    color: #61dafb;
+    background-color: #89CFF0;
+    color: white;
     padding: 0.5em 1em;
     border: none;
     cursor: pointer;
+
 }
 
 .dropdown:hover .dropdown-menu {
@@ -21,11 +22,12 @@
     top: 100%;
     left: 0;
     background-color: #333;
-    padding: 0;
-    margin: 0;
+    color:white;
+    border-radius: 5px;
+    padding: 1em;
+    width: 200 px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     list-style-type: none;
-    min-width: 150px;
-    border: 1px solid #444;
     z-index: 1;
 }
 
@@ -35,11 +37,11 @@
 
 .dropdown-menu li a {
     display: block;
-    padding: 10px;
-    color: #61dafb;
+    padding: 0.5em 0;
+    color: white;
     text-decoration: none;
 }
 
 .dropdown-menu li a:hover {
-    background-color: #444;
+    background-color: #21a1f1;
 }

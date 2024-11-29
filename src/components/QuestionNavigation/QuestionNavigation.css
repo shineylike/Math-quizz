@@ -1,0 +1,57 @@
+.question-navigation {
+    padding: 10px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question-navigation.hidden .grid-container {
+    display: none; /* Only hide the grid container */
+}
+
+.question-navigation.hidden .toggle-button {
+    display: block; /* Ensure the button is always visible */
+}
+
+.toggle-button {
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+}
+
+.toggle-button:hover {
+    background-color: #0056b3;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 items per row */
+    gap: 10px;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.grid-item:hover {
+    background-color: #e0e0e0;
+}
+
+.grid-item.active {
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+}

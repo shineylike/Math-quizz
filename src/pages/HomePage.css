@@ -1,14 +1,100 @@
 .home-page {
     text-align: center;
     padding: 2em;
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center the content */
 }
 
-.home-page h2 {
-    font-size: 2em;
-    color: #333;
+.home-page > section {
+    width: 70%; /* Take up 70% of the page's width */
+    margin: 1em 0; /* Adds spacing between sections */
+    padding: 1em;
+    background: linear-gradient(135deg, #00b0ff, #ff6ec7); /* Blue to pink gradient */
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left; /* Align text to the left */
+    box-sizing: border-box; /* Ensure padding is included in width */
 }
 
-.home-page p {
-    font-size: 1.2em;
-    color: #666;
+.home-page > section:nth-child(odd) {
+    align-self: flex-start; /* Align odd sections to the left */
+}
+
+.home-page > section:nth-child(even) {
+    align-self: flex-end; /* Align even sections to the right */
+}
+
+/* Hover effect */
+.home-page > section:hover {
+    transform: scale(1.05); /* Makes the section bigger */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Adds a shadow for emphasis */
+}
+
+/* What You Can Learn Section */
+.what-you-can-learn-section {
+    background: linear-gradient(135deg, #00b0ff, #ff6ec7); /* Blue to pink gradient */
+}
+
+.what-you-can-learn-section h3 {
+    font-size: 1.2em; /* Smaller text */
+    margin-bottom: 1em;
+}
+
+.what-you-can-learn-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.what-you-can-learn-section li {
+    font-size: 0.9em; /* Smaller text */
+    margin: 8px 0;
+}
+
+.what-you-can-learn-section strong {
+    font-weight: bold;
+}
+
+/* Features Section */
+.features-section {
+    background: linear-gradient(135deg, #00b0ff, #ff6ec7); /* Blue to pink gradient */
+}
+
+.features-section h3 {
+    font-size: 1.2em; /* Smaller text */
+    margin-bottom: 1em;
+}
+
+.features-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features-section li {
+    font-size: 0.9em; /* Smaller text */
+    margin: 8px 0;
+}
+
+.features-section strong {
+    font-weight: bold;
+}
+
+/* Third Section: Get Started */
+.get-started-section {
+    background: linear-gradient(135deg, #00b0ff, #ff6ec7); /* Blue to pink gradient */
+}
+
+.get-started-section h3 {
+    font-size: 1.2em; /* Smaller text */
+    margin-bottom: 1em;
+}
+
+.get-started-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.get-started-section li {
+    font-size: 0.9em; /* Smaller text */
+    margin: 8px 0;
 }
